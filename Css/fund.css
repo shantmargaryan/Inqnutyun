@@ -341,7 +341,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
     max-width: 280px;
     text-align: center;
@@ -606,6 +605,7 @@
     font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (1920 - 320)));
     font-weight: 300;
     line-height: 120%;
+    text-align: center;
 }
 
 .fund-tab-content-information-supporters-info {
@@ -667,7 +667,7 @@
     color: #1E1E1E;
     text-align: center;
     font-family: "Arm-Hmks-Bebas-Neue-Regular";
-    font-size: clamp(16px, 5vw, 36px);
+    font-size: clamp(16px, 5vw, 40px);
     font-weight: 400;
     transition: transform 0.5s,
         opacity 1s;
