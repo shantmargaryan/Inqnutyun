@@ -724,7 +724,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-    margin-block-end: 60px;
+    margin-block-end: 100px;
     counter-reset: number;
 }
 
