@@ -602,6 +602,7 @@
 }
 
 .fund-tab-content-information-supporters-team-name {
+    width: 80px;
     font-size: calc(10px + (16 - 10) * ((100vw - 320px) / (1920 - 320)));
     font-weight: 300;
     line-height: 120%;
@@ -667,7 +668,7 @@
     color: #1E1E1E;
     text-align: center;
     font-family: "Arm-Hmks-Bebas-Neue-Regular";
-    font-size: clamp(16px, 5vw, 40px);
+    font-size: 40px;
     font-weight: 400;
     transition: transform 0.5s,
         opacity 1s;
@@ -688,7 +689,7 @@
     color: #781212;
     text-align: center;
     font-family: "Arm-Hmks-Bebas-Neue-Regular";
-    font-size: clamp(20px, 5vw, 46px);
+    font-size: 40px;
     font-weight: 400;
     transition: transform 0.5s,
         opacity 1s;
